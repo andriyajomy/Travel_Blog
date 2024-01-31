@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Merriweather:ital@1&family=Satisfy&display=swap');
+
+* {
+    font-family: 'Satisfy', cursive;
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+nav {
+    background-color: rgb(243, 225, 204);
+
+
+}
+
+#navbarNav {
+    display: inline;
+    justify-content: end;
+    margin: 50px;
+    padding-right: 50px;
+}
+.name {
+    height: 50px;
+    /* background-color:aqua ; */
+}
+
+p {
+    text-align: center;
+    margin: 10px;
+    font-size: 40px;
+    color: rgb(222, 202, 178);
+
+
+}
+
+/* .container{
+    width: 100%;
+    position: relative;
+    height: 100vh;
+}
+.cotainer video{
+    width: 100%;
+    height: 100%;
+
+
+}
+.text-box h1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(131, 198, 198);
+    height: 100%;
+    width: 100%;
+    color:  rgb(227, 211, 187);
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    font-size: 100;
+    font-weight: 900;
+    */
+
+
+video {
+background: #000;
+    height: 855px;
+    width: 100%;
+    /* position: absolute; */
+    margin: 0;
+}
+
+/* section{
+
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+section h2{
+    position: absolute;
+    left: 0;
+    /* top: 0; */
+/* display: flex;
+    align-items: center;
+    justify-items: center;
+    height: 200px;
+    width: 200px;
+    font-size:medium
+    text-align: center;
+    font-weight: 700;
+    line-height: 0.85em;
+    color:whitesmoke;
+    background:black;
+    mix-blend-mode: multiply; */
+
+/* } */
+
+/* section h2 span{
+    font-size: 0.9; */
+/* .overlay {
+    position: relative;
+    border: 2px ridge black;
+    /* top: 270px; */
+    /* left: 5%;
+    width: 350px;
+    height: 200px; */
+/* } */ 
+
+.overlay h1 {
+   
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    /* margin: 2rem 3rem 0; */
+    /* mix-blend-mode: overlay; */
+    padding: 5px 15px;
+    text-align: center;
+    position: absolute;
+    top: 300px;
+    left: 650px;
+    /* down: 500px */
+
+    
+}
+#intro{
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    padding: 5px 15px;
+    text-align: center;
+    position: absolute;
+    top: 370px;
+    left: 100px;
+
+    
+
+}
+
+.row1 {
+    display: flex;
+
+}
+
+.row2 {
+    display: flex;
+}
+
+.col-4:hover {
+    filter: brightness(50%);
+}
+
+
+.card-title {
+    color: rgb(182, 134, 116);
+}
+#destination{
+    /* background-image: url('https://tse3.mm.bing.net/th?id=OIP.KSOu1q5qOLqpeJNPO9QUCgHaEK&pid=Api&P=0&h=180'); */
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:  0px;
+    padding-top: 0px;
+
+    
+}
+.card:hover{
+    box-shadow: 2px 3px 4px 7px;
+}
+.card{
+    margin-bottom: 25px;
+}
+#photocard:hover{
+    background-color: black;
+    filter: grayscale(60%);
+}
+#packing:hover{
+    background-color: black;
+filter: grayscale(60%);
+
+}
+.navlink:hover{
+    text-decoration-thickness: 100px;
+}
+.seen img{
+    display: inline;
+    align-items: center;
+    
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+
+@media screen  and (max-width:400px)
+{
+    #navbarNav {
+        display: inline;
+        justify-content: end;
+        margin: 0px;
+        padding-right: 0px;
+    }
+    #icon{
+        margin-top: -60px; padding: 0px;
+    }
+   #photos img{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+   }
+   .navbar-toggler{
+    margin-top: -60px;
+    padding: 0px;
+   }
+   #navbarNav li a {
+    display: inline-flex;
+    flex-direction: row;
+    
+   }
+   .nav-item a{
+    display: flex;
+    flex-direction: row;
+   }
+   video{
+    width: 100%;
+    height: 100%;
+    
+   }
+   .overlay h1 {
+    
+    top: -300px;
+    left: -250px;
+    font-size: 200;
+   }
+   #intro  {
+    position: relative;
+    margin-top: -500px;
+    margin-left: -300px;
+    text-align: center;
+    font-size: 50;
+   }
+   #pg img{
+    display: flex;
+    flex-direction: column;
+   }
+   #pics img{
+
+    flex-direction: column;
+    width: 100%;
+   }
+}
+    
